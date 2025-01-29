@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
   </head>
   <body>
     <header>
@@ -23,10 +24,55 @@
             ><img src="./assets/en-logo.svg" alt="" /><span>EN</span></a
           >
           <a href="#">Help</a>
-          <a href="#">Log in</a>
-          <a class="btn" href="#">Sign up</a>
+          <a class="dikho" href="#">Log in</a>
+          <a class="dikho btn" href="#">Sign up</a>
         </div>
       </nav>
     </header>
+    <main>
+      <div id="main-left">
+        <h1>
+          Go anywhere with <br />
+          Uber
+        </h1>
+        <div class="rid-cou">
+          <div class="ride">
+            <img src="./assets/ride.svg" alt="" />
+            <span>Ride</span>
+          </div>
+          <div class="courier">
+            <img src="./assets/courier.svg" alt="" />
+            <span>Courier</span>
+          </div>
+        </div>
+        <div id="sp-div">Request a ride, hop in, and go.</div>
+        <div class="location">
+          <div class="upper">
+            <input type="text" placeholder="Pickup location" />
+            <img id="img-1" src="./assets/dot.svg" alt="" />
+            <img id="img-2" src="./assets/arrow.svg" alt="" />
+          </div>
+          <div class="lower">
+            <input type="text" placeholder="Dropoff location" />
+            <img src="./assets/sqaure.svg" alt="" />
+          </div>
+        </div>
+        <div class="ultra-lower">
+          <input type="date" name="" id="" placeholder="Today" />
+          <input type="time" name="" id="" />
+        </div>
+        <button>See prices</button>
+        <img id="ride-w-u" src="./assets/Ride-with-Uber.webp" alt="">
+      </div>
+      <div id="main-right">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.467063922473!2d72.9303366726859!3d19.13102193937592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1738151168423!5m2!1sen!2sin"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </main>
   </body>
 </html>
