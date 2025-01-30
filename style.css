@@ -215,3 +215,73 @@ main #main-left h1 {
   transition: all 0.3s;
   cursor: pointer;
 }
+
+/* Suggestions Section */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  max-width: 1200px;
+  margin: 100px auto;
+  flex-direction: column;
+  padding: 10px 35px;
+}
+
+#suggestion {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 25px;
+}
+
+.s-box {
+  background-color: #f5f2f2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 350px;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.s-box img {
+  width: 120px;
+}
+
+.s-box h4 {
+  font-size: 16px;
+}
+
+.s-box p {
+  font-size: 12px;
+}
+
+.s-box span {
+  font-size: 14px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.s-box span:hover {
+  background-color: #eae8e8;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.s-box #s-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 15px;
+}
