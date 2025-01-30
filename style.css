@@ -398,3 +398,22 @@ section h2 {
   align-items: center;
   gap: 20px;
 }
+
+#ek-another-classic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 150px auto;
+}
+
+#ek-another-classic img {
+  width: 560px;
+  height: 560px;
+}
+
+#ek-another-classic #content h3 {
+  font-size: 52px;
+  color: #333333;
+}
