@@ -83,6 +83,21 @@
     align-items: center;
     text-align: center;
   }
+
+  #another-classic {
+    flex-direction: column-reverse;
+  }
+
+  #another-classic img {
+    width: 330px;
+    height: 330px;
+  }
+
+  #content {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+  }
 }
 @media screen and (min-width: 601px) and (max-width: 1200px) {
   nav a,
@@ -154,5 +169,15 @@
   .classic-left {
     align-items: center;
     text-align: center;
+  }
+
+  #another-classic {
+    flex-direction: column-reverse;
+  }
+
+  #content {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
   }
 }
