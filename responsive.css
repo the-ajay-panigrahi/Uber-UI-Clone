@@ -66,6 +66,23 @@
   #suggestion .s-box {
     width: 100%;
   }
+
+  #classic {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  #classic img {
+    max-width: 330px;
+    margin: 20px;
+  }
+
+  .classic-left {
+    align-items: center;
+    text-align: center;
+  }
 }
 @media screen and (min-width: 601px) and (max-width: 1200px) {
   nav a,
@@ -125,5 +142,17 @@
 
   #suggestion .s-box {
     width: 100%;
+  }
+
+  #classic {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .classic-left {
+    align-items: center;
+    text-align: center;
   }
 }

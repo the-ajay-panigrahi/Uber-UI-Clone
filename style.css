@@ -285,3 +285,47 @@ section h2 {
   align-items: start;
   gap: 15px;
 }
+
+#classic {
+  display: flex;
+  justify-content: start;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding-inline: 30px;
+}
+
+.classic-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+}
+
+.classic-left h3 {
+  font-size: 52px;
+}
+
+.classic-left p {
+  font-size: 16px;
+  color: #1f1f1f;
+}
+
+.classic-left button {
+  font-size: 16px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  display: block;
+}
+
+.classic-left a {
+  font-size: 16px;
+  color: #1f1f1f;
+  text-decoration: none;
+  border-bottom: 1px solid #9d9d9d9d;
+  padding-bottom: 5px;
+}
