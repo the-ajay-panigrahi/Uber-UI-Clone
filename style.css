@@ -417,3 +417,61 @@ section h2 {
   font-size: 52px;
   color: #333333;
 }
+
+#unique {
+  background-color: #f5f2f2;
+  padding: 10px;
+}
+
+#unique-cont {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  max-width: 1200px;
+  flex-direction: column;
+}
+
+#unique h3 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+#card-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-box {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.card-box > img {
+  width: 150px;
+  height: 150px;
+}
+
+.card-box .box-content {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text h4 {
+  font-size: 24px;
+}
+
+.text p {
+  font-size: 16px;
+}
+
+.dikhjao {
+  display: none;
+}
